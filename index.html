@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arham Qureshi - FrontEnd Developer, Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/05038ea292.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="Logo" src="img/Logo.png" alt="Logo">
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" onclick="closemenu()"> </i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>FrontEnd Developer</p>
+                <h1>Hi, I'm<br> <span>Arham Qureshi</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!--ABOUT ME-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="img/279203217_1631562980552003_1280907178645870232_n.jpg" alt="photo">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey there! I'm Arham Qureshi, a web developer and Software Engineering student. I'm passionate
+                        about creating intuitive and engaging digital experiences. With a focus on both front-end and
+                        back-end development, I love diving into new technologies and collaborating with others to build
+                        innovative solutions. Let's make something awesome together!
+                    </p>
+
+                    <div id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist"
+                        class="shadow-xl  rounded-[20px] tab-titles">
+                        <a id=" slide-1-tab" data-tabs-target="#slide-1" type="button" role="tab"
+                            aria-controls="slide-1" aria-selected="false role=" href="" class="tab-link active-link mr-3"
+                            onclick="opentab('skills')">
+                            Skills
+                        </a>
+                        <a id=" slide-2-tab" data-tabs-target="#slide-2" type="button" role="tab"
+                            aria-controls="slide-2" aria-selected="false role=" href="" class="tab-link mr-3"
+                            onclick="opentab('skills')">
+                            Experience
+                        </a>
+                        <a id=" slide-3-tab" data-tabs-target="#slide-3" type="button" role="tab"
+                            aria-controls="slide-3" aria-selected="false role=" href="" class="tab-link mr-3"
+                            onclick="opentab('education')">
+                            Education
+                        </a>
+
+                    </div>
+
+                    <div id="default-tab-content">
+                        <div class="hidden" id="slide-1" role="tabpanel" aria-labelledby="slide-1-tab">
+                            <div class="" id="skills">
+                                <ul class="three-column-list">
+                                    <li><span>Html</span></li>
+                                    <li><span>CSS</span></li>
+                                    <li><span>JavaScript</span></li>
+                                    <li><span>Bootstrap</span></li>
+                                    <li><span>TailWind</span></li>
+                                    <li><span>ReactJs</span></li>
+                                    <li><span>NodeJs</span></li>
+                                    <li><span>PHP</span></li>
+                                    <li><span>SQL database</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hidden" id="slide-2" role="tabpanel" aria-labelledby="slide-2-tab">
+                            <div class="" id="experience">
+                                <ul>
+                                    <li><span>Jan 2024 - Feb 2024</span><br>Web Developer Intern in CodSoft</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hidden" id="slide-3" role="tabpanel" aria-labelledby="slide-3-tab">
+                            <div class="" id="education">
+                                <ul>
+                                    <li><span>Feb 2022 - Feb 2026 (expected)</span><br>BS in Software Engineering in
+                                        Sindh
+                                        Madresatul Islam University</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- <div class="tab-titles">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>
+
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Html</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>Bootstrap</span></li>
+                            <li><span>TailWind</span></li>
+                            <li><span>ReactJs</span></li>
+                            <li><span>NodeJs</span></li>
+                            <li><span>PHP</span></li>
+                            <li><span>SQL database</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Jan 2024 - Feb 2024</span><br>Web Developer Intern in CodSoft</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Feb 2022 - Feb 2026 (expected)</span><br>BS in Software Engineering in Sindh
+                                Madresatul Islam University</li>
+                        </ul>
+                    </div> -->
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICEs-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis officia voluptates aliquam
+                        totam ad modi quo numquam quod quasi ullam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis officia voluptates aliquam
+                        totam ad modi quo numquam quod quasi ullam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Freelancing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis officia voluptates aliquam
+                        totam ad modi quo numquam quod quasi ullam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PORTFOLIOO-->
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">Projects</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/Logo.png" alt="">
+                    <div class="layer">
+                        <h3>Grovery Store Web App</h3>
+                        <p> A Grocery Store Web Application made using C#, HTML, BOOTSTRAP, CSS, SQL Database</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Cal.png" alt="">
+                    <div class="layer">
+                        <h3>Scientific Calculator</h3>
+                        <p> A Scientific Calculator Made using HTML, CSS, JavaScript</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Logo.png" alt="">
+                    <div class="layer">
+                        <h3>Youtube Clone</h3>
+                        <p> A Youtube Clone made for fun using HTMl, CSS</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+            <a class="btn" href="#"> See More</a>
+        </div>
+    </div>
+
+    <!-- Contact Us-->
+    <div id="contact">
+
+        <div class="container">
+            <div class="row">
+                <div class="content-left">
+                    <h1 class="sub-title">Contect Us</h1>
+                    <p><i class="fa-solid fa-envelope"></i> arhamimranqureshi@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +92 300 9375122</p>
+                    <div class="social-icon">
+                        <a href="www.linkedin.com/in/arham-qureshi"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/ArhamImranQureshi"><i class="fa fa-github"></i></a>
+                        <a href="https://www.upwork.com/freelancers/~0176aeeddcc00c0bda"><i
+                                class="fa-brands fa-upwork"></i>
+                            <a href="www.fiverr.com"><i class="fa-solid fa-laptop"></i></a>
+                    </div>
+                    <a href="img/Resume.pdf" download class="btn btn-2">Download Resume</a>
+                </div>
+                <div class="content-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p> Copyright  &#169; Arham Qureshi</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("side-menu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxZbvaD7oKYP9FZuj7lkohmkfamjeDatW3enHH8Nnk0knROb3tw5CcVR18IMprrVt_o/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent succesfully"
+                    setTimeout(function () {
+                        msg.innerHTML = "";
+                    }, 5000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
